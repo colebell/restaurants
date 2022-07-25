@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <style>
+        #navList {
+            list-style: none;
+            background-color: black;
+            color: white;
+        }
+
+        #navList li {
+            display: inline;
+            padding: 3%;
+        }
+
+        #logo {
+            background-color: red; 
+            /* i tried a lot of things to resize this but nothing worked
+            */
+        }
+        a:hover {
+            color:aqua;
+        }
+
+        h4 {
+            font-family: 'Roboto', sans-serif;
+        }
+        h5 {
+            font-family: 'Cormorant SC', serif;
+        }
+
+        @keyframes animation {
+            from {background-color: orange;}
+            to {background-color: teal;}
+        }
+
+        div {
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            animation-name: animation;
+            animation-duration: 10s;
+        }
+        
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class=".navbar-dark class"> 
+            <ul id="navList">
+                <li id="logo">Logo</li>
+                <li><a href="restaurants.html">Home </a></li>
+                <li>Portfolio</li>
+                <li><a href="contact.html">Contact </a></li>
+                <li><a href="about.html">About me </a></li>
+                <li><input type="search"></li>
+                <li><img src="https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png" height="40px" width="40px" style="background-color:red;"></li>
+                <li><img src="http://www.clker.com/cliparts/5/j/r/G/y/p/shopping-cart-icon.svg" height="40px" width="40px" style="background-color:white; float: right;"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 style="text-shadow: 2px 2px;">This is a page of my favorite restaurants in Portland Oregon</h1>
+
+    <h4>Here are my favorite restaurants in order of how much I like them</h4>
+
+    <ul>
+        <li>Voodoo Donuts</li>
+        <li>Big Burger</li>
+        <li>Auntie Annes</li>
+        <li>Happy Family</li>
+        <li><a href="kitchen.html">My Kitchen</a></li>
+    </ul>
+
+    <p>Many of these places hold valuable <em>memories</em> from my childhood. I grew up in a small town called <b>Molalla</b> 
+        outside of Portland. I have fond memores of eating <em>maple bacon donuts</em> and other fancy donuts from Voodoo. 
+        <b>Big Burger</b> has the best milkshakes in the city.
+        I miss eating at some of these places that only exist in Portland.
+    </p>
+
+    <h5>Thank you for visiting my page!</h5>
+
+    <h4>Add your contact info here and leave a comment</h4>
+
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name"> <br>
+        <label for="email">Email: </label>
+        <input type="text" id="email" email="email"> <br>
+        <label for="comment">Comment: </label>
+        <input type="text" id="comment" comment="comment">
+    </form>
+
+    <br>
+
+    <div>
+        <p>Animation</p>
+    </div>
+
+
+    <footer>
+        <nav class=".navbar-dark class"> 
+            <ul id="navList">
+                <li id="logo">Logo</li>
+                <li><a href="restaurants.html">Home </a></li>
+                <li>Portfolio</li>
+                <li><a href="contact.html">Contact </a></li>
+                <li><a href="about.html">About me </a></li>
+                <li><input type="search"></li>
+                <li><img src="https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png" height="40px" width="40px" style="background-color:red;"></li>
+                <li><img src="http://www.clker.com/cliparts/5/j/r/G/y/p/shopping-cart-icon.svg" height="40px" width="40px" style="background-color:white; float: right;"></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
